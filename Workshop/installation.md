@@ -34,7 +34,7 @@ We will have to grab the config file and give it the correct permissions :
 
     $ mkdir ~/.kube
     $ sudo cp /var/lib/microshift/resources/kubeadmin/kubeconfig ~/.kube/config
-    $ sudo chown -R lab-user ~/.kube/config
+    $ sudo chown lab-user ~/.kube/config
 
 We can now connect to our MicroShift cluster : 
 
